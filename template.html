@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5&CSS3 Responsive Web Design</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/698bbb3bab.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .search-form {
+      background-color: rgb(211, 204, 204);
+      border-radius: 30px 0px 0px 30px;
+      /*border-radius:Top-left, Top-right, Bottom-right, Bottom-left;*/
+    }
+
+    /*to cange only one form and not all give unique class name like  class="search-form" */
+
+    .s {
+      background-color: gray;
+      border-color: gray;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        
+        <span><img src="images/log.png" alt=""></span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="#home">Home</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+          <li><a class="nav-link scrollto" href="#story"> Our Story</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Contct us</a></li>
+        </ul>
+        <form role="form" class="d-md-flex d-none">
+          <div class="form-group ">
+            <input type="text" id="iconified" class="form-control empty search-form"  placeholder="&#xF002;" />
+          </div>
+      </form>
+          <!--<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>-->
+       
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+  <div class="container-fluid marignnavwidth">
+    <div class="row">
+      <div class="col-12">
+      <div class="card" style="border: 0;">
+        <img src="images/m.jpg" class="card-img img2"
+          alt="..." width="100%" height="40%">
+        <div class="card-img-overlay ">
+          <h5 class="card-title crdtit">IT'S TIME <BR> FOR HIKING</h5>  
+          <p class="card-text">
+            <span class="subtitle">This is a wider card</span><br><br>
+            <button type="button" class="btn btn-light btn-border-radius btn-s">Read More</button><br>
+          </p>
+          <p class="card-text des">
+            This is a wider card with supporting text<br>
+            as a natural lead-in to additional content<br> 
+            This content is a little bit longer.
+            </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+       <div class="card text-center des" style="width: 100%;border:0; ">
+        <div class="card-body">
+          <h5 class="card-title cdsubt">LET'S GO</h5>
+          <p class="card-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. <br>Lorem Ipsum has been the industry's standard dummy text 
+          </p>
+          <div class="card-group margincard">
+            <div class="card margincard">
+              <img class="card-img-top" src="images/1.jpg" alt="Card image cap">
+              <div class="card-body bgcad">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+            <div class="card margincard" style="margin-left:2em;margin-right: 2em;">
+              <img class="card-img-top" src="images/2.jpg" alt="Card image cap">
+              <div class="card-body bgcad">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+    
+              </div>
+            </div>
+            <div class="card margincard">
+              <img class="card-img-top" src="images/3.jpg" alt="Card image cap">
+              <div class="card-body bgcad">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+              </div>
+            </div>
+          </div>
+          <div class="d-grid gap-2 col-2 mx-auto">
+            <button class="btn btn-primary btn-border-radius btn-s" type="button">Show More</button>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="more-info-content">
+            <div class="row">
+              <div class="col-md-6 content-img">
+                <div class="left-image">
+                  <img src="images/5.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-md-6 align-self-center content-div">
+                <div class="right-content">
+                  <span>Who we are</span>
+                  <h2>Get to know about <em>our company</em></h2>
+                  <p>Curabitur pulvinar sem a leo tempus facilisis. Sed non sagittis neque. Nulla conse quat tellus nibh, id molestie felis sagittis ut. Nam ullamcorper tempus ipsum in cursus<br><br>Praes end at dictum metus. Morbi id hendrerit lectus, nec dapibus ex. Etiam ipsum quam, luctus eu egestas eget, tincidunt</p>
+                  <a href="#" class="btn btn-warning btn-border-radius filled-button">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          </div>
+         </div>
+         <div class="row" style="margin:0;">
+          <div class="col-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6 align-self-center  content-div">
+                  <div class="left-content">
+                    <span>Who we are</span>
+                    <h2>Get to know about <em>our company</em></h2>
+                    <p>Curabitur pulvinar sem a leo tempus facilisis. Sed non sagittis neque. Nulla conse quat tellus nibh, id molestie felis sagittis ut. Nam ullamcorper tempus ipsum in cursus<br><br>Praes end at dictum metus. Morbi id hendrerit lectus, nec dapibus ex. Etiam ipsum quam, luctus eu egestas eget, tincidunt</p>
+                    <a href="#" class="btn btn-warning btn-border-radius filled-button">Read More</a>
+                  </div>
+                </div>
+                <div class="col-md-6  content-img">
+                  <div class="right-image">
+                    <img src="images/6.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            </div>
+        </div>
+      </div>
+            <div class="row" >
+              <div class="col-12">
+                <div class="card text-center" style=" background-image: url('images/b.png');height: 600px;border:0;">
+                  <div class="card-body ca text-center" style="padding-top: 10em;" >
+                    <h1 class="card-title">Hiking in Mountains</h1>
+                    <p class="card-text tecart" >
+                      With supporting text below as a natural lead-in to additional content.<br>
+                      ing text below as a natural lead-in to additional content.
+                    </p>
+                  </div>
+                </div>
+            </div>
+           </div>
+           <div class="row" >
+            <div class="col-12">
+              <div class="card text-center" style=" background-image: url('images/b4.jpg');height: 650px;border:0;background-repeat: no-repeat;">
+                <div class="card-body ca text-center" style="padding-top: 10em;" >
+                  <h1 class="card-title" style="color: coral;font-size: 4em;">EXPLORER</h1>
+                  <p class="card-text tecart" style="color: rgb(0, 0, 0);font-size: 2em;">
+                   THE WORLD
+                  </p>
+                </div>
+              </div>
+           </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+            <div class="card-group"  >
+              <div class="card " style="border: 0;">
+     
+                <div class="card-body">
+                  <h5 class="card-title">header 1</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card" style="border: 0;">
+    
+                <div class="card-body">
+                  <h5 class="card-title">header 2</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card" style="border: 0;">
+                <div class="card-body">
+                  <h5 class="card-title">header 3</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         </div>
+           
+      </div>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+              <h4>Title Here</h4>
+              <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            </div>
+            <div class="col-lg-6">
+              <form action="" method="post">
+                <input type="email" placeholder="Your email" name="email"><input type="submit" value="Subscribe">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-5 col-md-12 footer-info">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <img src="images/log.png" alt="">
+                <span>EXPLORER</span>
+              </a>
+              <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+  
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+              <h4>Contact Us</h4>
+              <p>
+                A108 Adam Street <br>
+                New York, NY 535022<br>
+                United States <br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+  
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>ITI</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexstart-bootstrap-startup-template/ -->
+          Designed by <a href="#">ITI</a>
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
